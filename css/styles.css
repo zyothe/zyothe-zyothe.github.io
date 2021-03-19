@@ -1,0 +1,263 @@
+*{
+  font-family: 'Raleway',sans-serif;
+}
+body{
+  overflow-x: hidden;
+}
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #ef106e #141726;
+}
+
+/* Works on Chrome/Edge/Safari */
+*::-webkit-scrollbar {
+  width: 12px;
+}
+*::-webkit-scrollbar-track {
+  background: #141726;
+}
+*::-webkit-scrollbar-thumb {
+  background-color: #ef106e;
+  border-radius: 20px;
+  border: 3px solid #141726;
+}
+button:focus{
+  outline: none !important;
+}
+a{
+  text-decoration: none;
+}
+.text{
+  font-size: 32pt;
+  line-height: 36pt;
+}
+.img-profile {
+  top: 20px;
+  position: relative;
+  width: 150px;
+  height: 150px;
+  border-radius: 100px;
+  border: 6px solid #fff;
+padding: 0.6rem;
+margin: 0.4rem;
+}
+.img-logo {
+  top: 10px;
+  position: relative;
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  border: 5px solid #fff;
+padding: 0.1rem;
+margin: 0.1rem;
+}
+.project-name, .heading{
+  font-size: 24pt;
+  font-weight: 600;
+}
+.footer-heading{
+  font-size: 20pt;
+  font-weight: 400;
+}
+.small-text{
+  font-size: 14pt;
+  line-height: 24pt;
+  max-width: 900px;
+  text-align: left ;
+}
+.smaller-text{
+  font-size: 12pt;
+  line-height: 24pt;
+  max-width: 900px;
+  text-align: left ;
+}
+.copyright{
+  font-size: 12pt;
+}
+.small-text.text-center{
+  text-align: center !important;
+}
+.year{
+  font-size: 8pt;
+  padding: 2px 5px;
+  border-radius: 2px;
+  height: max-content;
+  margin-left: 8px;
+}
+.highlight{
+  color: #ef106e;
+  font-weight: 600;
+}
+.home-button{
+  padding: 12px 20px ;
+  width: 230px;
+  border: 2px solid #fff;
+  border-radius: 50px;
+  font-size: 16pt;
+  background : transparent;
+  color: #fff;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  transition: background-color 0.25s ease-in-out;
+}
+.border-white{
+  border: 2px solid #fff;
+}
+.border-white:hover{
+  background-color: #ef106e;
+  border: 2px solid #ef106e !important;
+}
+.home-button:hover,.border-white:hover{
+  background-color: #ef106e;
+  border: 2px solid #ef106e;
+}
+.home-button>i{
+  transform: rotate(0deg);
+  transition: transform 0.25s ease-in-out;
+}
+.home-button:hover>i{
+  transform: rotate(90deg) !important;
+}
+.project-button{
+  width: max-content !important;
+  border-radius: 50px;
+  font-size: 12pt !important;
+  border: 2px solid #F23838;
+}
+.project-button.bg-dark{
+  width: max-content !important;
+  border-radius: 50px;
+  font-size: 12pt !important;
+  border: 2px solid #141726;
+}
+
+.h-100{
+  min-height: 100vh !important;
+}
+.h-80{
+  min-height: 80vh !important;
+}
+.wd-max{
+  width: 100%;
+}
+.changing-background {
+  background-color: #141726;
+  transition: background-color 0.25s ease-out;
+}
+.bg-dark{
+  background-color: #141726 !important;
+}
+.bg-1{
+  background-color: #F23838 !important;
+}
+.bg-2{
+  background-color: #fff !important;
+}
+.bg-3{
+  background-color: #6439BF !important;
+}
+.bg-4{
+  background-color: #05AFF2 !important;
+}
+.bg-5{
+  background-color: #141726 !important;
+}
+
+.color-white{
+  color: #fff !important;
+}
+.color-dark{
+  color: #141726 !important
+}
+.color-1{
+  color: #F23838 !important;
+}
+.color-2{
+  color: #fff !important;
+}
+.color-3{
+  color: #6439BF !important;
+}
+.color-4{
+  color: #05AFF2 !important;
+}
+.color-5{
+  color: #141726 !important;
+}
+.home{
+  position: relative;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.home-content{
+  z-index: 999;
+  height: max-content;
+}
+.hide{
+  display: none;;
+}
+.canvas {
+  background: url("http://findmatthew.com/style/../img/filler.png") center center/cover;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100vw;
+}
+.project{
+  max-width: 400px;
+  max-height: 300px;
+  width: auto !important;
+  width: -moz-available;
+  width: -webkit-fill-available;
+}
+.banner{
+  border-radius: 10px;
+}
+
+.footer-list{
+  list-style-type: none;
+}
+.footer-item{
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #141726;
+  border: 2px solid #222;
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+  margin-left: 5px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+.footer-item i{
+  font-size: 18px;
+  color: #fff;
+}
+.footer-item:hover{
+  background-color: #fff;
+}
+.footer-item:hover i{
+  color: #141726;
+}
+
+@media screen and (max-width: 560px) {
+  .align-items-center-sm{
+    align-items: center !important;
+  }
+  .text-center-sm{
+    text-align: center !important;
+  }
+  .project{
+    max-width: 100%;
+    max-height: 300px;
+    width: auto !important;
+  }
+}
